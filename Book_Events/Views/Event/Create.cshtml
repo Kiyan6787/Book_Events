@@ -1,0 +1,100 @@
+﻿@using Book_Events.Infrastructure.Context.Entities
+@model Book_Events.Domain.DTOS.BookEventDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+</style>
+
+<h1>Create</h1>
+
+<h4>Book Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEvent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" value="@User.Identity.Name" readonly />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" type="date" min="2000-01-01" max="2100-12-31    />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartTime" class="control-label"></label>
+                @Html.DropDownListFor(model => model.StartTime, Model.TimeOptions, "---Select Start Time---", new { @class = "form-control" })
+                <span asp-validation-for="StartTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Event Type</label><br />
+                <label asp-for="Type" class="radio-inline">
+                    @Html.RadioButtonFor(m => m.Type, EventType.Public) Public
+                </label>
+                <label asp-for="Type" class="radio-inline">
+                    @Html.RadioButtonFor(m => m.Type, EventType.Private) Private
+                </label>
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OtherDetails" class="control-label"></label>
+                <textarea asp-for="OtherDetails" class="form-control"></textarea>
+                <span asp-validation-for="OtherDetails" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Invites" class="control-label"> Email Invites (comma seperated)</label>
+                <input asp-for="Invites" class="form-control" />
+                <span asp-validation-for="Invites" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

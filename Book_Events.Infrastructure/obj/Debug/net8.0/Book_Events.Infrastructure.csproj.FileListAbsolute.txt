@@ -1,0 +1,24 @@
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.deps.json
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.AssemblyInfo.cs
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\refint\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\ref\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.deps.json
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\bin\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.AssemblyInfo.cs
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\refint\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Infrastructure\obj\Debug\net8.0\ref\Book_Events.Infrastructure.dll

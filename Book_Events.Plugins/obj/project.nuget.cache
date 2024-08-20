@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gC4lcNeP+5VK6Rn4gCe1KQ0ImYs1Y2CuQloEfGe62geVyKo+Q25AxgQC1s6DSNcqEBu2xs0R27tnOmeT0x4RgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kiyanramjanum\\OneDrive - Nagarro\\Desktop\\3213853\\Book_Events\\Book_Events.Plugins\\Book_Events.Plugins.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\kiyanramjanum\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

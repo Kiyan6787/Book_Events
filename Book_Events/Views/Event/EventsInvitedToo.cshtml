@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Book_Events.Domain.DTOS.BookEventDTO>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+    </style>
+
+<div class="container">
+    <div class="row">
+        <h3>Events Invited Too</h3>
+        <hr />
+        <ul>
+            @foreach (var events in Model)
+            {
+                <li>
+                    <b><a asp-action="GetProductById" asp-controller="Event" asp-route-id="@events.Id">@events.Title</a></b> - @events.Date.ToString("dd/MM/yyyy") <br />
+                    @events.Location
+                </li>
+                <hr />
+            }
+        </ul>
+    </div>
+</div>

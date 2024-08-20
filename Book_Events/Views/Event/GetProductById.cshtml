@@ -1,0 +1,155 @@
+﻿@model Book_Events.Domain.DTOS.BookEventDTO
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .event-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0069d9;
+            margin-bottom: 10px;
+        }
+
+        .event-details {
+            margin-bottom: 25px;
+        }
+
+            .event-details p {
+                margin-bottom: 5px;
+            }
+
+        .comment-card {
+            margin-bottom: 15px;
+        }
+
+        .comment-meta {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 5px;
+        }
+
+        .comment-text {
+            font-size: 16px;
+        }
+
+        .comment-form {
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn-submit {
+            background-color: #0069d9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+
+            .btn-submit:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="event-details">
+            <h1 class="event-title">@Model.Title</h1>
+            <p><strong>Hosted By:</strong> @Model.Email</p>
+            <p><strong>Date:</strong> @Model.Date.ToShortDateString()</p>
+            <p><strong>Location:</strong> @Model.Location</p>
+            <p><strong>Start Time:</strong> @Model.StartTime</p>
+            @if(Model.Duration != null)
+            {
+                <p><strong>Duration:</strong> @Model.Duration Hours</p>
+            }
+
+            @if (Model.Description != null)
+            {
+                <p><strong>Description:</strong> @Model.Description</p>
+            }
+
+            @if (Model.OtherDetails != null)
+            {
+                <p><strong>Other Details:</strong> @Model.OtherDetails</p>
+            }
+
+            @if (@Model.Invites == null)
+            {
+                <p><strong>Number of invites:</strong> 0</p>
+            }
+            else
+            {
+                <p><strong>Number of invites:</strong> @Model.Invites.Split(',').Count()</p>
+            }
+        </section>
+
+        <h4>Leave a Comment</h4>
+        <form class="comment-form" asp-controller="Event" asp-action="AddComment" method="post">
+            <input type="hidden" name="eventId" value="@Model.Id" />
+            <div class="form-group">
+                <label for="commentText">Your Comment</label>
+                <textarea class="form-control" name="commentText" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="addbtn">Submit Comment</button>
+        </form>
+
+        <h4>Comments</h4>
+        @foreach (var comment in Model.Comments)
+        {
+        <section class="comment-card" data-comment-id="@comment.Id">
+        <p class="comment-meta"><strong>@comment.Email</strong> - @comment.CreatedAt.ToShortDateString()</p>
+        <p class="comment-text">@comment.Text</p>
+        <hr />
+        </section>
+        } 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+
+    <script>
+        console.log("Begin");
+        var connection = new signalR.HubConnectionBuilder().withUrl("/commentHub").build();
+
+        connection.start()
+        .then(console.log("Connected in GetProductById View"))
+        .catch(function (err) {
+            return console.log(err.toString());
+        });
+
+        document.getElementById("addbtn").addEventListener("click", function (event) {
+            //event.preventDefault();
+            console.log("Beginning of event listener.")
+            var user = '@Model.Email';
+            var message = "A comment was made on your event";
+
+            connection.invoke("SendCommentNotification", user, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+        });
+
+    </script>
+</body>
+</html>

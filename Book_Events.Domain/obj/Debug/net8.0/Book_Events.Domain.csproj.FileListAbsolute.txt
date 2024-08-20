@@ -1,0 +1,34 @@
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.deps.json
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.pdb
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.csproj.AssemblyReference.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.AssemblyInfoInputs.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.AssemblyInfo.cs
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Eve.254EA37C.Up2Date
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\refint\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.pdb
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\obj\Debug\net8.0\ref\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Plugins.dll
+C:\Users\kiyanramjanum\source\repos\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Plugins.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.deps.json
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Domain.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Infrastructure.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Plugins.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Infrastructure.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\bin\Debug\net8.0\Book_Events.Plugins.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.csproj.AssemblyReference.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.AssemblyInfoInputs.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.AssemblyInfo.cs
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Eve.254EA37C.Up2Date
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\refint\Book_Events.Domain.dll
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\Book_Events.Domain.pdb
+C:\Users\kiyanramjanum\OneDrive - Nagarro\Desktop\3213853\Book_Events\Book_Events.Domain\obj\Debug\net8.0\ref\Book_Events.Domain.dll
